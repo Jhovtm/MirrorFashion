@@ -2,8 +2,22 @@
 p {
 
     left: 50%;
-    padding: 0 75px;
+    padding: 0 50px;
+    text-align: justify;
 }
+
+h3 {
+    margin: 0px 0 0 0;
+    text-align: center;
+}
+
+hr {
+    border-top: 3px solid #000000;
+    margin-top: 0px;
+    margin-bottom: 10;
+
+}
+
 .titulo-faixa {
          position: relative;
         font-size: 45px;
@@ -29,6 +43,58 @@ p {
     z-index: 1;
 }
 
-body {
-    overflow-x: hidden;
+.imagem-borda{
+    padding: 20px 0px;
+    position: relative;
+    display: inline-block;
+    border-radius: 12px;
+    border-width: 5px;
+    border-color: #dedad4;
+    border-style: ridge;
+    background-color: #dedad4;
+
 }
+
+.imagem1{
+    padding: 0 75px;
+}
+
+.texto-sobreposto .imagem-borda {
+    color: #0e0606;
+    font-size: 1.5em;    
+    margin: 0;
+}
+
+.historia{
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+.imagem-do-lado {
+    float: right; 
+    padding: 0 120px;
+    width: 330px;
+    height: auto;
+    margin-right: 20px; 
+}
+
+.imagem-do-lado figcaption {
+    font-size: 0.85em;
+    color: #555;
+    margin-top: 5px;
+}
+
+.compre-faixa {
+        color: #fefafa;
+        font-size: 30px;
+        padding: 5 px 10px;
+        display: inline-block;
+        text-align: left;
+        border-style: groove;
+        border-color: #0c59a5;
+        background-color: #93bee9;
+        border-width: 4px;
+       
+}
+
+
